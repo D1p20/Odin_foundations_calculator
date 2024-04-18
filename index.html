@@ -6,46 +6,48 @@
     <link href="main.css" rel="stylesheet">
     <title>Calculator</title>
 </head>
-<body>
+<body >
     <header></header>
     <main>
         <div class="calcRow screens" >
-            
-            <div class="screen" ></div>
-            <div class="smol" ></div>
+            <div class="smol-left" data-smol-left></div>
+            <div  class="screen" data-screen>0</div>
+            <div class="smol" data-smol></div>
         </div>
 
         <div class="calcRow" >
-        <button class="button">AC</button>
-        <button class="button" >+/-</button>
-        <button class="button">%</button>
-        <button class="button">/</button>
+        <button class="button" data-action="clear">AC</button>
+        <button class="button" data-action="dlt">C</button>
+        <button class="button" data-action="negative">+/-</button>
+        <button class="button" data-action="divide">÷</button>
         </div>
         <div class="calcRow" >
-        <button class="button" >7</button>
-        <button class="button" >8</button>
-        <button class="button" >9</button>
-        <button class="button" >*</button>
+        <button class="button"r>7</button>
+        <button class="button"r>8</button>
+        <button class="button"r>9</button>
+        <button class="button" data-action="multiply">*</button>
         </div>
         <div class="calcRow" >
-        <button class="button" >4</button>
-        <button class="button" >5</button>
-        <button class="button" >6</button>
-        <button class="button">-</button>
+        <button class="button"r>4</button>
+        <button class="button"r>5</button>
+        <button class="button"r>6</button>
+        <button class="button" data-action="subtract">-</button>
         </div>
         <div class="calcRow" >
-        <button class="button" onclick="numberFnc(1)">1</button>
-        <button class="button" onclick="numberFnc(2)" >2</button>
-        <button class="button" onclick="numberFnc(3)" >3</button>
-        <button class="button" >+</button>
+        <button class="button"r>1</button>
+        <button class="button"r>2</button>
+        <button class="button"r>3</button>
+        <button class="button" data-action="add">+</button>
         </div>
         <div class="calcRow" >
-        <button class="button zero">0</button>
-        <button class="button">.</button>
-        <button class="button">=</button>
+        <button class="button "r>0</button>
+        <button class="button" data-action="decimal">.</button>
+        <button class="button duble" data-action="calculate">=</button>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        &#169; ISTIAK 2024
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>

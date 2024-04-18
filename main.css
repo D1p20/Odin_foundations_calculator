@@ -49,6 +49,25 @@ main{
     width: 20px;
     height: 79px;
     font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.smol-left{
+
+    /* background-color: red; */
+    width: 20px;
+    height: 79px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 button{
@@ -77,6 +96,17 @@ button:hover{
     transform: translateY(4px);
   }
 
-.zero{
+.duble{
     width: 175px;
+}
+
+footer{
+    position: absolute;
+    /* border: 1px solid rebeccapurple; */
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
